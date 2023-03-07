@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="15" failures="0" errors="0" time="3.03">
+  <testsuite name="src/tests/reducer.test.js" errors="0" failures="0" skipped="0" timestamp="2022-06-15T15:55:24" time="1.594" tests="4">
+    <testcase classname="componentsReducer" name="handles ADD_COMPONENT action" time="0.003">
+    </testcase>
+    <testcase classname="componentsReducer" name="handles UPDATE_COMPONENT action" time="0">
+    </testcase>
+    <testcase classname="componentsReducer" name="handles REMOVE_COMPONENT action" time="0">
+    </testcase>
+    <testcase classname="componentsReducer" name="handles SET_EDITED_COMPONENT action" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/tests/A.test.js" errors="0" failures="0" skipped="0" timestamp="2022-06-15T15:55:24" time="1.611" tests="1">
+    <testcase classname="A" name="works ok" time="0.013">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/tests/actions.test.js" errors="0" failures="0" skipped="0" timestamp="2022-06-15T15:55:24" time="1.69" tests="4">
+    <testcase classname="componentsActions" name="addComponent creates ADD_COMPONENT action" time="0.003">
+    </testcase>
+    <testcase classname="componentsActions" name="updateComponent creates UPDATE_COMPONENT action" time="0">
+    </testcase>
+    <testcase classname="componentsActions" name="removeComponent creates REMOVE_COMPONENT action" time="0.001">
+    </testcase>
+    <testcase classname="componentsActions" name="setEditedComponent creates SET_EDITED_COMPONENT action" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/tests/components-picker.test.js" errors="0" failures="0" skipped="0" timestamp="2022-06-15T15:55:24" time="1.755" tests="3">
+    <testcase classname="ComponentsPicker" name="uses proper classes when lockedPicker is true" time="0.008">
+    </testcase>
+    <testcase classname="ComponentsPicker" name="calls onComponentClick on click when lockedPicker is false" time="0.006">
+    </testcase>
+    <testcase classname="ComponentsPicker" name="does not call onComponentClick on click when lockedPicker is true" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/tests/Img.test.js" errors="0" failures="0" skipped="0" timestamp="2022-06-15T15:55:25" time="0.36" tests="1">
+    <testcase classname="Img" name="works ok" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/tests/rootReducer.test.js" errors="0" failures="0" skipped="0" timestamp="2022-06-15T15:55:25" time="0.409" tests="1">
+    <testcase classname="rootReducer" name="has necessary reducers injected" time="0.002">
+    </testcase>
+  </testsuite>
+  <testsuite name="src/tests/navbar.test.js" errors="0" failures="0" skipped="0" timestamp="2022-06-15T15:55:25" time="0.376" tests="1">
+    <testcase classname="Navbar" name="works ok" time="0.007">
+    </testcase>
+  </testsuite>
+</testsuites>

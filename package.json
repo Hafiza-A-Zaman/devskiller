@@ -1,0 +1,57 @@
+{
+  "name": "devskiller-react-redux-simple-website-builder",
+  "private": true,
+  "dependencies": {
+    "@types/jest": "^27.4.0",
+    "@types/node": "^17.0.7",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "classnames": "^2.3.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.2",
+    "jest-junit": "^13.0.0",
+    "prop-types": "^15.8.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.6",
+    "react-scripts": "4.0.3",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --ci --reporters=default --reporters=jest-junit",
+    "eject": "react-scripts eject"
+  },
+  "jest-junit": {
+    "outputDirectory": "./",
+    "outputName": "test-results.xml",
+    "suiteName": "jest tests",
+    "suiteNameTemplate": "{filepath}",
+    "classNameTemplate": "{classname}",
+    "titleTemplate": "{title}",
+    "ancestorSeparator": " › "
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  }
+}
